@@ -12,6 +12,8 @@ obj
 Zorepad-ACTINSPACE-2026-project/bin/*
 Zorepad-ACTINSPACE-2026-project/obj/*
 Shared/*
+bin
+.vscode
 # Build results
 
 [Dd]ebug/
