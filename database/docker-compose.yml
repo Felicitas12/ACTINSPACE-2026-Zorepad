@@ -28,7 +28,8 @@ services:
     environment:
       - MINIO_ROOT_USER=${MINIO_USER}
       - MINIO_ROOT_PASSWORD=${MINIO_PASS}
-      - MINIO_SERVER_URL=http://172.16.41.78:9000
+      # change ip to your server ip or home address
+      - MINIO_SERVER_URL=http://192.168.1.145:9000
       - MINIO_NOTIFY_POSTGRES_ENABLE_PRIMARY=on
       - MINIO_NOTIFY_POSTGRES_CONNECTION_STRING_PRIMARY=host=timescaledb port=5432 user=postgres password=${POSTGRES_PASS} dbname=${POSTGRES_DB} sslmode=disable
       - MINIO_NOTIFY_POSTGRES_FORMAT_PRIMARY=access

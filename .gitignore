@@ -7,11 +7,13 @@
 *.suo
 *.user
 *.sln.docstates
-data
 obj
 Zorepad-ACTINSPACE-2026-project/bin/*
 Zorepad-ACTINSPACE-2026-project/obj/*
 Shared/*
+bin
+tmp
+.vscode
 # Build results
 
 [Dd]ebug/
